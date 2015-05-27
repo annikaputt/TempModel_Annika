@@ -77,7 +77,7 @@ temp      <- subset(temp,date!="29-Feb")
 
 ##########
 # Make all three data tables the same length so that they can safely be appended together and modeled.
-MinimumYear <- 1980
+MinimumYear <- 1950
 MaximumYear <- 2000
 
 # Subset all of the data frames to only have this date range
